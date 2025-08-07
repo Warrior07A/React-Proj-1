@@ -1,10 +1,15 @@
-import logo from "../../assets/logo.png"
+// import logo from "../../assets/logo.png"
 import "./navigate.css"
+import icon from "../../assets/icon.png"
+
 
 const Navbar=()=>{
     return <>
-        <nav id="container">
-        <img src={logo} id="logo"></img>    
+        <nav id="container" class="dark-nav">
+         <ul>
+        <li><img src={icon} id="logo"></img></li>   
+        <li id="icon-name">100XSchool</li>
+        </ul>
         
         <ul>
             <li>Home</li>

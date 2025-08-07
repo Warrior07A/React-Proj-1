@@ -5,10 +5,9 @@ const Hero=()=>{
 return<>
 <div id="hero">
     <div id="hero-text">
-        <h1>We ensure better education for a better world.</h1>
+        <h1>We don't chase Degree. We earn Skills</h1>
 
-        <p>Our cutting edge curriculum is designed to empower students with hathiyaar and what npot?
-            everything you findd here is under construction or broken but believe me we are good to good.
+        <p>We teach real, in-demand skills that make you stand out in interviews, startups, and life.   
         </p>
 <br></br>           
         <button id="btn">Explore More     <img id="arrow" src={dark_arrow}></img></button>

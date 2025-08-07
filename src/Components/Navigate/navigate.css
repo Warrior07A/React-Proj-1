@@ -1,6 +1,6 @@
 nav{
    width:100%;
-   /* background:#333; */
+
    color:#fff;
    padding:4px 0;
    position:fixed;
@@ -9,15 +9,24 @@ nav{
    display:flex;
    align-items: center;
    justify-content: space-around;
-   z-index:0;
+   z-index:1000;
    height:60px
 
 }
 
 #logo{
-    width:130px
+    width:70px;
+    padding-top:5px;
 }
 
+#container img{
+    max-width:100px
+}   
+
+#icon-name{
+    padding:30px;
+    padding-left:0;
+}
 nav ul {
     display:flex;
     list-style:none;
@@ -27,6 +36,7 @@ nav ul {
 
 nav ul li{
     margin:10px;
+    cursor:pointer;
 }
 
 #container{
@@ -40,6 +50,9 @@ nav ul li{
     border-radius: 10px;
     width:100px;
     height:30px;
+}
 
-
+.dark-nav{
+    background: #212EA0;
+    transition:0.5s; 
 }

@@ -1,0 +1,19 @@
+#protext{
+    color:#212ea0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    font-size: 50px;
+
+}
+
+#subtitle   {
+    font-weight:300;
+    font-size:30px;
+    color:#000e39;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
